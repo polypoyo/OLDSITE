@@ -1,2 +1,2 @@
 # Mehehehehe82.github.io
-This is a test of GitHub Pages
+This is some info that I really want to show as a web format
