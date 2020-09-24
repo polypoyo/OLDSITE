@@ -11,7 +11,7 @@
 				photos.forEach(element => {
 					content = `${content}<li>${element.makeAnchor()}</li>`;
 				});
-				$("#imagelist").html
+				$("#imagelist").html(content)
 			})
 		</script>
 		<!-- Meta refresh is TEMPORARY! If you are browsing code and you see this,
@@ -21,10 +21,6 @@
 	</head>
 	<body>
 		<p>The following images were used in my "Stream starting soon" screen on my Twitch/Youtube channels</p>
-		<ul id="imagelist">
-			<li><a href="https://unsplash.com/photos/twukN12EN7c">Simon Berger: Altmünster am Traunsee, Neukirchen bei Altmünster, Oberösterreich, Österreich</a></li>
-			<li><a href="https://unsplash.com/photos/RwHv7LgeC7s">Johannes Plenio: Mystery Forest Light </a></li>
-		</ul>
-		
+		<ul id="imagelist"></ul>
 	</body>
 </html>
