@@ -5,8 +5,12 @@ function updateText() {
 		.then(data => {return data.json()})
 		.then(response => {
 			console.log(`Server ${ipAddress} pinged.`)
-			document.getElementById('output1').innerHTML = replaceMOTDText(response.motd.html[0])
-			document.getElementById('output2').innerHTML = replaceMOTDText(response.motd.html[1])
+			if (response.debug.ping) {
+				document.getElementById('output1').innerHTML = replaceMOTDText(response.motd.html[0])
+				document.getElementById('output2').innerHTML = replaceMOTDText(response.motd.html[1])
+			} else {
+				document.getElementById('output1').innerHTML = `<span style=\"color: #F00\">Unable to reach server at <span style=\"color: #F77\">${ipAddress}</span>.</span>`
+			}
 		});
 	}
 }
