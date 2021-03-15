@@ -8,8 +8,10 @@ function updateText() {
 			if (response.debug.ping) {
 				document.getElementById('output1').innerHTML = replaceMOTDText(response.motd.html[0])
 				document.getElementById('output2').innerHTML = replaceMOTDText(response.motd.html[1])
+				document.getElementById('logo').src = response.icon
 			} else {
 				document.getElementById('output1').innerHTML = `<span style=\"color: #F00\">Unable to reach server at <span style=\"color: #F77\">${ipAddress}</span>.</span>`
+				document.getElementById('output2').innerHTML = ``
 			}
 		});
 	}
@@ -19,6 +21,6 @@ function updateText() {
  * @param text What text to replace
 **/
 function replaceMOTDText(text) {
-	return text
+	return text || ""
 	//return text.replace(' ', '&nbsp;')
 }
