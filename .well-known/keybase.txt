@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hyperboid
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mehehehehe82.github.io
+  * I am hyperboid (https://keybase.io/hyperboid) on keybase.
+  * I have a public key ASCyDT7fQ8qYb1zhBKIXUHqcbrdV-glXtOBKTPsW9HEDOgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b20d3edf43ca986f5ce104a217507a9c6eb755fa0957b4e04a4cfb16f471033a0a",
+      "host": "keybase.io",
+      "kid": "0120b20d3edf43ca986f5ce104a217507a9c6eb755fa0957b4e04a4cfb16f471033a0a",
+      "uid": "1ced5cabe9492cf7f56c978b0d1dda19",
+      "username": "hyperboid"
+    },
+    "merkle_root": {
+      "ctime": 1619114724,
+      "hash": "da4eb519c32ea73b6e3d2493d5d567c05cd22de9370fea9abd36be9bc03ea296dadf1ef40fc7bc168ffed31d2928e619a28221204e770b6ec938303a6785a817",
+      "hash_meta": "7f2cedf3e2ea89935a9bed88aed649fde3f1d69b9a29c69d0de0b9bdaa45f562",
+      "seqno": 19713212
+    },
+    "service": {
+      "entropy": "3LHUcwepnJ4c/7fJzm1uQkHH",
+      "hostname": "mehehehehe82.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1619114745,
+  "expire_in": 504576000,
+  "prev": "d50b06bc83b4ad59e70b8557ef2e6d0281d7c0de8d5aa0a98fff489c327e7d75",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsg0+30PKmG9c4QSiF1B6nG63VfoJV7TgSkz7FvRxAzoKp3BheWxvYWTESpcCDMQg1QsGvIO0rVnnC4VX7y5tAoHXwN6NWqCpj/9InDJ+fXXEINe9K+3LMoTSP697hmSmexkGD5R2KFraAKdxordaP+b7AgHCo3NpZ8RAr4yGD6nAUC+oEC8K5kxwQKfWmf+ygfd/UcxCaFlRUY6LlC1Gl/sks/4+lTdk/Hrsb1gEsGFwqX10b4rr863UC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILO8Bo6Wg31MU0jtXpNMQPhYAR8zTjy0E8g89BXnA7Ino3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hyperboid
+
+==================================================================
